@@ -7,6 +7,9 @@ function App()
   {
     return words[Math.floor(Math.random() * words.length)]
   })
+
+  const [guessedLetters, setGuessedLetters] = useState<string[]>([])
+  
   console.log(wordToGuess);
   return <h1> hello </h1>
 }
