@@ -20,6 +20,18 @@ function App()
       alignItems: "center"
     }
   }>
+
+    {/* this is for win or lose text */}
+
+    <div style={
+      {
+        fontSize: "2rem",
+        textAlign: "center"
+      }
+    }>
+    Lose Win
+    </div>
+
     
 
   </div>
