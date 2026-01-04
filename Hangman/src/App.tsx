@@ -10,8 +10,19 @@ function App()
 
   const [guessedLetters, setGuessedLetters] = useState<string[]>([])
   
-  console.log(wordToGuess);
-  return <h1> hello </h1>
+  return <div style={
+    {
+      maxWidth: "800px",
+      display: "flex",
+      flexDirection: "column",
+      gap: "2rem",
+      margin: "0 auto",
+      alignItems: "center"
+    }
+  }>
+    
+
+  </div>
 }
 
 export default App;
